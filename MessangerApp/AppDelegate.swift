@@ -1,13 +1,14 @@
 //
 //  AppDelegate.swift
-//  MessangerApp
+//  Flash Chat iOS13
 //
-//  Created by Akash Arafat on 2023/08/21.
+//  Created by Angela Yu on 21/10/2019.
+//  Copyright © 2019 Angela Yu. All rights reserved.
 //
 
 import UIKit
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
