@@ -20,6 +20,8 @@
 		355449382A9B866000C3F7E2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 355449372A9B866000C3F7E2 /* GoogleService-Info.plist */; };
 		35544A222AA1B15100C3F7E2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35544A212AA1B15100C3F7E2 /* Constants.swift */; };
 		35544A242AA1D27600C3F7E2 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35544A232AA1D27600C3F7E2 /* Message.swift */; };
+		35544A272AA33C2100C3F7E2 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35544A252AA33C2100C3F7E2 /* MessageCell.swift */; };
+		35544A282AA33C2100C3F7E2 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35544A262AA33C2100C3F7E2 /* MessageCell.xib */; };
 		561E52D4BAB0BB31C325CA46 /* Pods_MessangerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DDD135F4D5C7CDE1BAF99A /* Pods_MessangerApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +41,8 @@
 		355449372A9B866000C3F7E2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		35544A212AA1B15100C3F7E2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		35544A232AA1D27600C3F7E2 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		35544A252AA33C2100C3F7E2 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		35544A262AA33C2100C3F7E2 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		8346240E4FA0FB9D116A2CF4 /* Pods-MessangerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessangerApp.release.xcconfig"; path = "Target Support Files/Pods-MessangerApp/Pods-MessangerApp.release.xcconfig"; sourceTree = "<group>"; };
 		84EC429074B6B52EEEA777E1 /* Pods-MessangerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessangerApp.debug.xcconfig"; path = "Target Support Files/Pods-MessangerApp/Pods-MessangerApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C7DDD135F4D5C7CDE1BAF99A /* Pods_MessangerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessangerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				0B62817C235DEE8100E35CAF /* Main.storyboard */,
+				35544A252AA33C2100C3F7E2 /* MessageCell.swift */,
+				35544A262AA33C2100C3F7E2 /* MessageCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				355449352A962A2000C3F7E2 /* readme.txt in Resources */,
+				35544A282AA33C2100C3F7E2 /* MessageCell.xib in Resources */,
 				0B628183235DEE8400E35CAF /* LaunchScreen.storyboard in Resources */,
 				355449382A9B866000C3F7E2 /* GoogleService-Info.plist in Resources */,
 				0B628180235DEE8400E35CAF /* Assets.xcassets in Resources */,
@@ -248,6 +255,7 @@
 				35544A242AA1D27600C3F7E2 /* Message.swift in Sources */,
 				0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */,
 				0B62818D235DF00B00E35CAF /* RegisterViewController.swift in Sources */,
+				35544A272AA33C2100C3F7E2 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +410,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = co.pnl.MessangerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -422,6 +431,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = co.pnl.MessangerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
