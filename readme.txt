@@ -25,3 +25,12 @@ What you will learn
 
 
 
+NOTE:
+
+If there is framework related error occurs then using terminal move to the project folder and execute the following command:
+
+pod deintegrate
+
+then
+
+pod install
