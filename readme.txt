@@ -34,3 +34,19 @@ pod deintegrate
 then
 
 pod install
+
+if the project contain library by add project follow following steps
+
+In your picture you choose level change it to "Combined"
+Click at Standard (armv7) $(ARCHS_STANDARD_32_BIT)
+Choose "Other"
+CLick at "$(ARCHS_STANDARD_32_BIT)" and the Click "-" to delete it
+Click "+" to add new item
+Type "armv6"
+Click "+" again
+Type "armv7"
+Click "+" again
+Type "arm64"
+Click anywhere to finish
+
+if still doea not work then please remove the library file and add them again.
