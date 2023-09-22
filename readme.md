@@ -32,4 +32,4 @@ Click "+" again
 Type "arm64"
 Click anywhere to finish
 
-if still doea not work then please remove the library file and add them again.
+if still does not work then please remove the library file and add them again.
